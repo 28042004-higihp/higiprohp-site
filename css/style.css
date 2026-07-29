@@ -45,8 +45,8 @@
     backdrop-filter:blur(10px);
     border-bottom:1px solid var(--line);
   }
-  .nav{display:flex; align-items:center; justify-content:space-between; padding:14px 0;}
-  .logo-img{height:38px; width:auto;}
+  .nav{display:flex; align-items:center; justify-content:space-between; padding:20px 0;}
+  .logo-img{height:130px; width:auto;}
   .nav-links{display:flex; gap:28px; font-size:0.92rem; font-weight:500;}
   .nav-links a{text-decoration:none; opacity:0.8; transition:opacity .2s;}
   .nav-links a:hover{opacity:1;}
@@ -451,4 +451,12 @@ BARRA DE CONFIANÇA
 
     color:#333;
 
+}body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
 }
