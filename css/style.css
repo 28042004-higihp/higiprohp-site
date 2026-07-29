@@ -272,3 +272,183 @@
     color:#0B5ED7;
 
 }
+/*=========================
+FAQ
+=========================*/
+
+.faq{
+
+    padding:80px 20px;
+
+    background:#ffffff;
+
+}
+
+.faq h2{
+
+    text-align:center;
+
+    font-size:2.2rem;
+
+    margin-bottom:15px;
+
+}
+
+.faq .section-subtitle{
+
+    text-align:center;
+
+    margin-bottom:45px;
+
+}
+
+.faq-item{
+
+    max-width:900px;
+
+    margin:20px auto;
+
+    background:#f8f8f8;
+
+    padding:25px;
+
+    border-left:5px solid #0B5ED7;
+
+    border-radius:8px;
+
+}
+
+.faq-item h3{
+
+    margin-bottom:10px;
+
+}
+
+.faq-item p{
+
+    color:#555;
+
+    line-height:1.7;
+
+}/*=========================
+CTA FINAL
+=========================*/
+
+.final-cta{
+
+    background:#0B5ED7;
+
+    color:#fff;
+
+    text-align:center;
+
+    padding:90px 20px;
+
+}
+
+.final-cta h2{
+
+    font-size:2.5rem;
+
+    margin-bottom:20px;
+
+}
+
+.final-cta p{
+
+    max-width:700px;
+
+    margin:0 auto 35px;
+
+    line-height:1.8;
+
+    font-size:1.1rem;
+
+}
+
+.cta-button{
+
+    display:inline-block;
+
+    background:#25D366;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    padding:18px 35px;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.cta-button:hover{
+
+    background:#1EBE5B;
+
+    transform:translateY(-2px);
+
+}
+/*=========================
+BARRA DE CONFIANÇA
+=========================*/
+
+.trust-bar{
+
+    background:#ffffff;
+
+    padding:35px 20px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+
+.trust-bar .container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+
+    gap:25px;
+
+    align-items:center;
+
+}
+
+
+.trust-item{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:12px;
+
+}
+
+
+.trust-item span{
+
+    font-size:28px;
+
+}
+
+
+.trust-item p{
+
+    margin:0;
+
+    font-weight:600;
+
+    color:#333;
+
+}
